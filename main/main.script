@@ -1,0 +1,7 @@
+
+function init(self)
+	go.set("/logo#answer_market", "text", tostring( apk_verifier.is_installed_from_market() ))
+	local package_local = sys.get_config("android.package")
+	local package_apk = apk_verifier.get_package_name() 
+	go.set("/logo#answer_pakage", "text", "apk :" .. package_apk .. " project :" .. package_local .. " " ..tostring(package_local == package_apk) )
+end
