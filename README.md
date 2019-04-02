@@ -4,7 +4,7 @@
 
 Defold-Apk_verifier [Native Extension](https://www.defold.com/manuals/extensions/) for the [Defold Game Engine](https://www.defold.com) 
 
-This Extension allows you calculate MD5 in native from string
+This Extension allows check APK install source (Google play or not) and get APK bundle id to compare with project bundle id (case, when APK is hacked)
 
 
 ## Platforms
