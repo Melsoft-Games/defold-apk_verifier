@@ -116,7 +116,7 @@ static dmExtension::Result FinalizeExtension(dmExtension::Params* params)
 
 static dmExtension::Result AppInitializeExtension(dmExtension::AppParams* params)
 {
-    dmLogWarning("Registered %s (null) Extension. Cuz of platform != android\n", MODULE_NAME);
+    dmLogWarning("Registered %s (null) Extension\n", MODULE_NAME);
     return dmExtension::RESULT_OK;
 }
 
